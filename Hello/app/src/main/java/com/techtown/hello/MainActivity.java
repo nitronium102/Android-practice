@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));
         startActivity(intent);
     }
+
+    public void OnButton3Clicked(View v){
+        // 새로운 화면 띄우기
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
+    }
 }
